@@ -70,12 +70,12 @@ $$ LANGUAGE plpgsql;
 ## 📂 Структура репозитория
 ```text
 ├── sql/
-│   ├── 01_schema.sql       # DDL: Таблицы, PK, FK, CHECK-ограничения
-│   ├── 02_views.sql        # Аналитические витрины (Data Marts)
-│   ├── 03_procedures.sql   # Атомарные бизнес-транзакции
-│   ├── 04_triggers.sql     # Валидация данных и автоматизация состояний
-│   └── 05_security.sql     # RBAC, функции хеширования pgcrypto
-└── app/                    # Веб-интерфейс на Python (Bottle)
+│   ├── 01_schema.sql           # DDL: Таблицы, PK, FK, CHECK-ограничения
+│   ├── 02_views.sql            # Аналитические витрины (Data Marts)
+│   ├── 03_procedures.sql       # Атомарные бизнес-транзакции
+│   ├── 04_triggers.sql         # Валидация данных и автоматизация состояний
+│   └── 05_coursework_roles.sql # Роли
+└── app/                        # Веб-интерфейс на Python (Bottle)
 ```
 
 
